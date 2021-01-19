@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+  background-color: black;
+}
+
+.options {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}

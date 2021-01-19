@@ -1,0 +1,101 @@
+.container {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  height: 90vh;
+}
+
+.container div {
+  display: flex;
+  text-align: center;
+}
+
+/* left side stuff */
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+/* Left side header */
+.left-side-header {
+  margin-top: 15vh;
+  text-align: left;
+  padding-left: 3vw;
+  font-size: 4rem;
+}
+
+.left-side h1 {
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+.left-side span {
+  color: yellow;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.left-side-content p {
+  width: 25vw;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* left side content */
+.left-side-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3vh;
+  padding-left: 5vw;
+
+  text-align: left;
+}
+/* left side end */
+
+/* Right side stuff */
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.right-side-header {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 3vw;
+}
+
+.right-side-header h1 {
+  opacity: 0.8;
+  font-size: 4rem;
+}
+.right-side span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+}
+
+.right-side-content p {
+  color: grey;
+  font-style: italic;
+}
+.right-side-img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* right side end */
+
+/* Media Queries */
+@media (maxx-width: 1300px) {
+}
+/* At 1000 pixels display one on top of the other */
