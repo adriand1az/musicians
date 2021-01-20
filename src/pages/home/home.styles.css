@@ -88,6 +88,8 @@
   font-style: italic;
 }
 .right-side-img {
+  max-width: 100%;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,6 +98,23 @@
 /* right side end */
 
 /* Media Queries */
-@media (maxx-width: 1300px) {
+@media (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+  }
+  .left-side {
+    border: 2px solid white;
+    display: none !important;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+  }
 }
 /* At 1000 pixels display one on top of the other */
