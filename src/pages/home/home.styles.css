@@ -88,6 +88,7 @@
   font-style: italic;
 }
 .right-side-img {
+  width: 100%;
   max-width: 100%;
   height: auto;
   -webkit-background-size: cover;
